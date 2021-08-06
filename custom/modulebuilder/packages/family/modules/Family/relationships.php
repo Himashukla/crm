@@ -38,4 +38,20 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 $relationships = array (
+  'fam_family_contacts' => 
+  array (
+    'rhs_label' => 'Contacts',
+    'lhs_label' => 'Family',
+    'rhs_subpanel' => 'default',
+    'lhs_module' => 'fam_family',
+    'rhs_module' => 'Contacts',
+    'relationship_type' => 'one-to-many',
+    'readonly' => false,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => false,
+    'relationship_name' => 'fam_family_contacts',
+  ),
 );

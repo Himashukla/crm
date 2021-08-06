@@ -726,6 +726,17 @@
       'reportable' => false,
       'massupdate' => false,
     ),
+    'fam_family_contacts' => 
+    array (
+      'name' => 'fam_family_contacts',
+      'type' => 'link',
+      'relationship' => 'fam_family_contacts',
+      'source' => 'non-db',
+      'module' => 'Contacts',
+      'bean_name' => 'Contact',
+      'side' => 'right',
+      'vname' => 'LBL_FAM_FAMILY_CONTACTS_FROM_CONTACTS_TITLE',
+    ),
   ),
   'relationships' => 
   array (
