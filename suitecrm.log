@@ -1,0 +1,30 @@
+Tue Aug  3 15:18:31 2021 [19196][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Wed Aug  4 05:23:18 2021 [10564][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Wed Aug  4 07:26:39 2021 [11800][1][FATAL] Mysqli_query failed.
+Wed Aug  4 07:26:39 2021 [11800][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE accounts   add COLUMN `phone` varchar(25)  NULL: MySQL error 1060: Duplicate column name 'phone'
+Wed Aug  4 07:26:39 2021 [11800][1][FATAL] Exception handling in D:\wamp64\www\crm\include\MVC\Controller\SugarController.php:409
+Wed Aug  4 07:26:39 2021 [11800][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Wed Aug  4 08:38:52 2021 [13240][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Wed Aug  4 08:38:52 2021 [13240][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Wed Aug  4 08:39:04 2021 [13240][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Wed Aug  4 12:21:23 2021 [12944][1][FATAL] Mysqli_query failed.
+Wed Aug  4 12:21:23 2021 [12944][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE accounts   add COLUMN `status` varchar(50)  NULL: MySQL error 1060: Duplicate column name 'status'
+Wed Aug  4 12:21:23 2021 [12944][1][FATAL] Exception handling in D:\wamp64\www\crm\include\MVC\Controller\SugarController.php:409
+Wed Aug  4 12:21:23 2021 [12944][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Wed Aug  4 15:20:42 2021 [16768][-none-][FATAL] Could Not Connect: MySQL error 2006: MySQL server has gone away
+Thu Aug  5 03:59:59 2021 [19628][-none-][FATAL] Mysqli_query failed.
+Thu Aug  5 03:59:59 2021 [19628][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 2006: MySQL server has gone away
+Thu Aug  5 04:00:03 2021 [19628][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Thu Aug  5 13:45:42 2021 [7080][1][FATAL] Mysqli_query failed.
+Thu Aug  5 13:45:42 2021 [7080][1][FATAL] Executing repair query:  Query Failed: CREATE TABLE fam_family (`id` char(36)  NOT NULL ,`date_entered` datetime  NULL ,`date_modified` datetime  NULL ,`modified_user_id` char(36)  NULL ,`created_by` char(36)  NULL ,`description` text  NULL ,`deleted` bool  DEFAULT '0' NULL ,`assigned_user_id` char(36)  NULL ,`salutation` varchar(255)  NULL ,`first_name` varchar(100)  NULL ,`last_name` varchar(100)  NULL ,`title` varchar(100)  NULL ,`photo` varchar(255)  NULL ,`department` varchar(255)  NULL ,`do_not_call` bool  DEFAULT '0' NULL ,`phone_home` varchar(100)  NULL ,`phone_mobile` varchar(100)  NULL ,`phone_work` varchar(100)  NULL ,`phone_other` varchar(100)  NULL ,`phone_fax` varchar(100)  NULL ,`lawful_basis` text(100)  NULL ,`date_reviewed` date  NULL ,`lawful_basis_source` varchar(100)  NULL ,`primary_address_street` varchar(150)  NULL ,`primary_address_city` varchar(100)  NULL ,`primary_address_state` varchar(100)  NULL ,`primary_address_postalcode` varchar(20)  NULL ,`primary_address_country` varchar(255)  NULL ,`alt_address_street` varchar(150)  NULL ,`alt_address_city` varchar(100)  NULL ,`alt_address_state` varchar(100)  NULL ,`alt_address_postalcode` varchar(20)  NULL ,`alt_address_country` varchar(255)  NULL ,`assistant` varchar(75)  NULL ,`assistant_phone` varchar(100)  NULL  , PRIMARY KEY (id)) CHARACTER SET utf8 COLLATE utf8_general_ci: MySQL error 1050: Table 'fam_family' already exists
+Thu Aug  5 13:45:42 2021 [7080][1][FATAL] Exception handling in D:\wamp64\www\crm\include\MVC\Controller\SugarController.php:409
+Thu Aug  5 13:45:42 2021 [7080][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Thu Aug  5 16:08:19 2021 [2560][-none-][FATAL] Mysqli_query failed.
+Thu Aug  5 16:08:19 2021 [2560][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1194: Table 'config' is marked as crashed and should be repaired
+Thu Aug  5 16:44:33 2021 [2560][-none-][FATAL] Could not connect to DB server localhost as root. port : MySQL server has gone away
+Thu Aug  5 16:45:26 2021 [2560][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Thu Aug  5 16:45:30 2021 [2560][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
