@@ -1,5 +1,5 @@
 <?php
-// created: 2021-08-06 09:32:35
+// created: 2021-08-09 05:31:05
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -86,5 +86,6 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_FAM_FAMILY_SUBPANEL_TITLE' => 'Family',
   'LBL_NEW_FORM_TITLE' => 'New Family',
+  'LBL_FAM_FAMILY_FP_EVENT_LOCATIONS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'Locations',
   'LBL_FAM_FAMILY_CONTACTS_FROM_CONTACTS_TITLE' => 'Contacts',
 );
